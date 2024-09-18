@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/site.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Dni</th>
+                <th>Saldo</th>
+            </tr>
+        </thead>
+        <tbody id="Clientestable"></tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombreproducto</th>
+                <th>Cantidad</th>
+                <th>PrecioVenta</th>
+                <th>PrecioCompra</th>
+            </tr>
+        </thead>
+        <tbody id="TodoslosProductos"></tbody>
+    </table>
+
+
+<script src="./js/ventas.js"></script>
+<script type="text/javascript"
+    window.onload = "MostrarClientes(); MostrarProductos();"
+></script>
+</body>
+</html>
+
